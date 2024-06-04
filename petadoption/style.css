@@ -1,0 +1,60 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.tophead{
+    color: rgb(180, 41, 41);
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+
+section{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.card {
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+/* div{
+    height: 450px;
+    width: 450px;
+    border: 2px solid black;
+    margin: 90px; 
+    border-radius: 30px;
+} */
+
+.img{
+    border-radius: 30px;
+    /* height: 200px; */
+    width: 100%;
+    /* margin: 10px; */
+}
+
+h3{
+    font-weight: 10px;
+    padding: 10px;
+}
+
+/* p{
+     font-size: 15px; 
+     padding: 10px; 
+     text-align: left;
+} */
+
+@media (max-width: 375px){
+    #main{
+        flex-wrap: wrap;
+    }
+}
+
+
